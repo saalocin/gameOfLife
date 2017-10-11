@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  gameoflife:
+    image: gameoflife
+    build:
+      context: ./GameOfLife
+      dockerfile: Dockerfile
